@@ -19,7 +19,7 @@ h1 {
 	float: left;
 	margin: 0;
 	padding: 15px;
-	font-family: 'Yellowtail', cursive;
+	font-family: 'Yellowtail', cursive, sans-serif;
 	}
 
 h1 a {
@@ -69,17 +69,62 @@ nav a:active {
 	
 /*-----------------Content Styling-----------------------------------------------*/
 h2 {
-	color: rgba(19, 19, 219, 0.5);
+	color: rgb(19, 19, 219);
 	text-decoration: none;
-	font-family: 'Yellowtail', cursive;
+	font-family: 'Yellowtail', cursive, sans-serif;
+	}
+	
+h2 a {
+	text-decoration: none;
+	color: white;
 	}
 	
 h4 {
-	color: rgba(19, 19, 219, 0.5);
+	color: rgb(19, 19, 219);
 	text-decoration: none;
-	font-family: 'Yellowtail', cursive;
+	font-family: 'Yellowtail', cursive, sans-serif;
 	}
 	
+h4 a {
+	text-decoration: none;
+	color: white;
+	}	
+	
+dl {
+	color: rgba(19, 19, 219, 0.5);
+	text-decoration: none;
+	font-family: 'Yellowtail', cursive, sans-serif;
+	}
+
+dl a {
+	color: white;
+	}
+	
+article p {
+	font-family: 'Rye', cursive, sans-serif;
+	}
+	
+article {
+	width: 351.12px;
+	padding-left: 10px;
+	border-style: solid;
+	border-radius: 15px;
+	background-color: rgba(252, 243, 3, 0.75);
+	float: left;
+	}
+	
+div {
+	width: 712.88px;
+	border-style: solid;
+	border-radius: 15px;
+	background-color: rgba(252, 243, 3, 0.75);
+	float: left;
+	}
+	
+dl, h6 {
+	clear: both;
+	}
+
 
 
 	
