@@ -98,6 +98,7 @@ dl {
 
 dl a {
 	color: white;
+	margin: 0, auto;
 	}
 	
 article p {
@@ -106,18 +107,34 @@ article p {
 	
 article {
 	width: 351.12px;
+	height: 430px;
 	padding-left: 10px;
 	border-style: solid;
 	border-radius: 15px;
-	background-color: rgba(252, 243, 3, 0.75);
+	background-color: tan;
 	float: left;
 	}
 	
 div {
-	width: 712.88px;
+	width: 690.88px;
+	height: 430px;
 	border-style: solid;
 	border-radius: 15px;
-	background-color: rgba(252, 243, 3, 0.75);
+	background-color: tan;
+	float: left;
+	}
+	
+div ul {
+	width: 690.88px;
+	list-style-type: none;
+	margin: 0, auto;
+	}
+
+.order {
+	clear: both;
+	}
+	
+div li {
 	float: left;
 	}
 	
