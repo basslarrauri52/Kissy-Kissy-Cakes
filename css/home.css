@@ -37,26 +37,25 @@ article {
 nav ul {
 	width: 400px;
 	margin: 0 auto;
-	background: black;
 	list-style-type: none;
 	padding: 0;
 	overflow: hidden;
 	}
 	
 nav li{
+	font-variant: small-caps;
+	font-weight: bolder;
 	width: 100px;
-	background: rgb(25, 7, 10);
 	float: left;
 	}
 	
 nav a{
 	text-decoration: none;
-	background: black;
 	display: block;
 	height: 30px;
 	line-height: 30px;
 	text-align: center;
-	color: white;
+	color: pink;
 	}
 	
 nav a:hover {
