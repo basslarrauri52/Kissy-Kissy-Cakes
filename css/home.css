@@ -40,15 +40,17 @@ article {
 
 /*--------------------Navigation Elements-------------------------------------------*/
 nav ul {
-	width: 400px;
+	width: 425px;
+	background-color: rgb(94, 14, 25);
 	margin: 0 auto;
 	list-style-type: none;
-	padding: 35px;
+	border-radius: 15px;
 	overflow: hidden;
 	}
 	
 nav li{
 	font-variant: small-caps;
+	font-size: 25px;
 	font-weight: bolder;
 	width: 100px;
 	float: left;
@@ -59,13 +61,13 @@ nav a{
 	display: block;
 	height: 30px;
 	line-height: 30px;
-	text-align: center;
 	color: pink;
 	}
 	
 nav a:hover {
 	color: black;
 	background: white;
+	padding_left: 20px;
 	}
 
 nav a:active {
@@ -128,7 +130,6 @@ div {
 	height: 430px;
 	border-style: solid;
 	border-radius: 15px;
-	background-color: tan;
 	background-image: url(../images/box-background2.jpg);
 	float: left;
 	}
