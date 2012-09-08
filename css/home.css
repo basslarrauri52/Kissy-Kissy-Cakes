@@ -1,12 +1,14 @@
 /*-----------------------------------Colors--------------------------------------------
-Deep Maroon:  97,14,24
+Deep Maroon:  94, 14, 25
 Blue:  19, 19, 210
 
 -------------------------------------------------------------------------------------*/
 
 body {
 	background-image: url(../images/cakesite-background.jpg);
-	background-repeat: repeat-x;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	overflow: auto;
 	width: 1064px;
 	margin: 0 auto;
 	}
@@ -37,8 +39,17 @@ article {
 	clear: both;
 	}
 
+/*-------------------Image Gallery--------------------------------------------------*/
+figure {
+	float: left;
+	margin-top: -25px;
+	margin-left: 70px;
+	}
 
 /*--------------------Navigation Elements-------------------------------------------*/
+nav {
+	padding-top: 35px;
+	}
 nav ul {
 	width: 425px;
 	background-color: rgb(94, 14, 25);
@@ -49,7 +60,7 @@ nav ul {
 	}
 	
 nav li{
-	font-variant: small-caps;
+	font-family: 'Yellowtail', cursive, sans-serif;
 	font-size: 25px;
 	font-weight: bolder;
 	width: 100px;
@@ -67,7 +78,6 @@ nav a{
 nav a:hover {
 	color: black;
 	background: white;
-	padding_left: 20px;
 	}
 
 nav a:active {
@@ -113,12 +123,20 @@ dl a {
 	
 article p {
 	font-family: 'Rye', cursive, sans-serif;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+	
+article h2 {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center;
 	}
 	
 article {
 	width: 351.12px;
 	height: 430px;
-	padding-left: 10px;
 	border-style: solid;
 	border-radius: 15px;
 	float: left;
@@ -134,6 +152,12 @@ div {
 	float: left;
 	}
 	
+div h2 {
+	padding-right: 5px;
+	padding-left: 5px;
+	text-align: center;
+	}
+	
 div ul {
 	width: 690.88px;
 	list-style-type: none;
@@ -141,6 +165,15 @@ div ul {
 	
 .cupcakes {
 	padding-bottom: 0;
+	}
+	
+div a {
+	color: rgb(94, 14, 25);
+	font-weight: bolder;
+	}
+	
+div a:hover {
+	color: black;
 	}
 
 .order {
