@@ -26,13 +26,20 @@ header, aside {
 h1 {
 	float: left;
 	margin: 0;
-	padding: 15px;
+	margin-left: -70px;
+	margin-right: 70px;
+	padding-top: 15px;
+	padding-left: 160px;
 	font-family: 'Yellowtail', cursive, sans-serif;
 	}
 
 h1 a {
 	color: pink;
 	text-decoration: none;
+	}
+	
+h1 a:hover {
+	color: black;
 	}
 	
 article {
