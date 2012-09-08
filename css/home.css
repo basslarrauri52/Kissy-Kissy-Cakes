@@ -27,7 +27,7 @@ h1 {
 	float: left;
 	margin: 0;
 	margin-left: -70px;
-	margin-right: 70px;
+	margin-right: 80px;
 	padding-top: 15px;
 	padding-left: 160px;
 	font-family: 'Yellowtail', cursive, sans-serif;
@@ -144,16 +144,21 @@ article h2 {
 article {
 	width: 351.12px;
 	height: 430px;
-	border-style: solid;
+	border: solid;
 	border-radius: 15px;
 	float: left;
 	background-image: url(../images/box-background.jpg);
 	}
 	
+
+div {
+	margin-left: 10px;
+	}
+
 div {
 	width: 690.88px;
 	height: 430px;
-	border-style: solid;
+	border: solid;
 	border-radius: 15px;
 	background-image: url(../images/box-background2.jpg);
 	float: left;
