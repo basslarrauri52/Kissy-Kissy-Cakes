@@ -197,7 +197,7 @@ div a:hover {
 div li {
 	float: left;
 	padding-top: 20px;
-	padding-left: 70px;
+	padding-left: 40px;
 	}
 	
 
@@ -205,6 +205,10 @@ dl, h6 {
 	clear: both;
 	text-align: center;
 	color: pink;
+	}
+	
+dl a:hover {
+	color: black;
 	}
 
 
