@@ -6,7 +6,7 @@ Blue:  19, 19, 219
 
 body {
 	background-image: url(../images/cakesite-background.jpg);
-	background-repeat: repeat;
+	background-repeat: repeat-x;
 	background-attachment: scroll;
 	overflow: auto;
 	width: 1064px;
@@ -91,117 +91,83 @@ nav a:active {
 	color: green;
 	}
 	
-/*-----------------Content Styling-----------------------------------------------*/
-h2 {
-	color: rgb(19, 19, 219);
-	text-decoration: none;
-	font-family: 'Yellowtail', cursive, sans-serif;
-	}
-	
-h2 a {
-	text-decoration: none;
-	color: white;
-	}
-	
-h4 {
-	color: rgb(19, 19, 219);
-	text-decoration: none;
-	font-family: 'Yellowtail', cursive, sans-serif;
-	text-align: center;
-	}
-	
-h4 a {
-	text-decoration: none;
-	color: white;
-	}	
-	
-dl {
-	color: rgba(19, 19, 219, 0.5);
-	text-decoration: none;
-	font-family: 'Yellowtail', cursive, sans-serif;
-	padding-top: 30px;
-	}
-
-dl a {
-	color: pink;
-	font-size: 20px;
-	font-weight: bolder;
-	}
-	
-article p {
-	font-family: 'Rye', cursive, sans-serif;
-	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
-	}
-	
-article h2 {
-	padding-left: 10px;
-	padding-right: 10px;
-	text-align: center;
-	}
-	
+/*---------------------------Menu Elements--------------------------------------------*/
 article {
-	width: 351.12px;
+	width: 1042px;
 	height: 430px;
-	border: solid;
-	border-radius: 15px;
-	float: left;
-	background-image: url(../images/box-background.jpg);
-	}
-	
-
-div {
-	margin-left: 10px;
-	}
-
-div {
-	width: 690.88px;
-	height: 430px;
-	border: solid;
-	border-radius: 15px;
 	background-image: url(../images/box-background2.jpg);
-	float: left;
+	border: solid;
+	border-radius: 15px;
+	overflow: scroll;
 	}
 	
-div h2 {
-	padding-right: 5px;
-	padding-left: 5px;
-	text-align: center;
-	}
-	
-div ul {
-	width: 690.88px;
+article ul {
 	list-style-type: none;
 	}
 	
-.cupcakes {
-	padding-bottom: 0;
+article {
+	font-family: 'Yellowtail', cursive, sans-serif;
 	}
 	
-div a {
+article h2 {
+	font-weight: bolder;
+	text-decoration: underline;
+	text-align: center;
+	color: rgb(19, 19, 219);
+	}
+	
+article a {
+	text-decoration: none;
 	color: rgb(94, 14, 25);
 	font-weight: bolder;
 	}
 	
-div a:hover {
+article a:hover {
 	color: black;
 	}
+	
+article ul {
+	margin-left: -25px;
+	}
+	
+article p {
+	float: right;
+	padding-right: 10px;
+	}
 
+article h4 {
+	font-weight: bolder;
+	color: rgb(19, 19, 219);
+	font-size: 20px;
+	}	
+	
+p {
+	font-size: 16px;
+	font-weight: bolder;
+	margin-top: 40px;
+	text-align: left;
+	color: rgb(19, 19, 219);
+	}
+		
 .order {
 	clear: both;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	text-align: center;
+	font-family: 'Yellowtail', cursive, sans-serif;
+	font-weight: bolder;
 	}
 	
-div li {
-	float: left;
-	padding-top: 20px;
-	padding-left: 40px;
+div a {
+	color:pink;
+	font-weight: bolder;
 	}
 	
-
-dl, h6 {
+ dl {
+ 	font-family: 'Yellowtail', cursive, sans-serif;
+ 	color: pink;
+ 	font-weight: bolder;
+	}
+ 
+ dl, h6 {
 	clear: both;
 	text-align: center;
 	color: pink;
@@ -210,6 +176,7 @@ dl, h6 {
 dl a:hover {
 	color: black;
 	}
+
 
 
 	

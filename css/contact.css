@@ -42,7 +42,7 @@ h1 a:hover {
 	color: black;
 	}
 	
-article {
+.contact_info {
 	clear: both;
 	}
 
@@ -91,7 +91,7 @@ nav a:active {
 	color: green;
 	}
 	
-/*-----------------Content Styling-----------------------------------------------*/
+/*------------------Contact Info Formats---------------------------------------------*/
 h2 {
 	color: rgb(19, 19, 219);
 	text-decoration: none;
@@ -103,6 +103,29 @@ h2 a {
 	color: white;
 	}
 	
+.contact_info {
+	list-style-type: none;
+	color: rgb(19, 19, 219);
+	}
+	
+article a {
+	color: rgb(94, 14, 25);
+	font-weight: bolder;
+	}
+	
+article a:hover {
+	color: black;
+	}
+	
+article dl {
+	margin-top: 80px;
+	margin-left: -20px;
+	margin-bottom: 50px;
+	margin-right: 25px;
+	font-size: 20px;
+	font-weight: bolder;
+	}
+
 h4 {
 	color: rgb(19, 19, 219);
 	text-decoration: none;
@@ -113,6 +136,7 @@ h4 {
 h4 a {
 	text-decoration: none;
 	color: white;
+	font-weight: bolder;
 	}	
 	
 dl {
@@ -120,25 +144,6 @@ dl {
 	text-decoration: none;
 	font-family: 'Yellowtail', cursive, sans-serif;
 	padding-top: 30px;
-	}
-
-dl a {
-	color: pink;
-	font-size: 20px;
-	font-weight: bolder;
-	}
-	
-article p {
-	font-family: 'Rye', cursive, sans-serif;
-	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
-	}
-	
-article h2 {
-	padding-left: 10px;
-	padding-right: 10px;
-	text-align: center;
 	}
 	
 article {
@@ -149,7 +154,6 @@ article {
 	float: left;
 	background-image: url(../images/box-background.jpg);
 	}
-	
 
 div {
 	margin-left: 10px;
@@ -199,7 +203,6 @@ div li {
 	padding-top: 20px;
 	padding-left: 40px;
 	}
-	
 
 dl, h6 {
 	clear: both;
@@ -210,6 +213,8 @@ dl, h6 {
 dl a:hover {
 	color: black;
 	}
-
-
 	
+.like a{
+	color: pink;
+	font-weight: bolder;
+	}

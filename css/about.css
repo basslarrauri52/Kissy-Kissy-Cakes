@@ -133,6 +133,7 @@ article p {
 	text-align: center;
 	padding-left: 10px;
 	padding-right: 10px;
+	margin-top: -25px;
 	}
 	
 article h2 {
@@ -199,7 +200,6 @@ div li {
 	padding-top: 20px;
 	padding-left: 40px;
 	}
-	
 
 dl, h6 {
 	clear: both;
@@ -210,6 +210,5 @@ dl, h6 {
 dl a:hover {
 	color: black;
 	}
-
 
 	
