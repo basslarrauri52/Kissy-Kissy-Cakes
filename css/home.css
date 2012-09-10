@@ -9,7 +9,7 @@ body {
 	background-repeat: repeat;
 	background-attachment: scroll;
 	overflow: auto;
-	width: 1064px;
+	max-width: 1064px;
 	margin: 0 auto;
 	}
 
