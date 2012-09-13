@@ -1,7 +1,8 @@
 /*-----------------------------------Colors--------------------------------------------
 Deep Maroon:  94, 14, 25
 Blue:  19, 19, 219
-
+90% body width: 921.6px
+100% height: 768px
 -------------------------------------------------------------------------------------*/
 
 body {
@@ -9,30 +10,58 @@ body {
 	background-repeat: repeat;
 	background-attachment: scroll;
 	overflow: auto;
-	max-width: 1064px;
+	max-width: 90%;
 	margin: 0 auto;
 	}
 
 /*-------------------Header Elements------------------------------------------------*/
 header {
-	padding-top: 10px;
+	padding-top: 1.085069444444%; /* 10px / 921.6px */
 	}
 
 header, aside {
 	float: left;
-	padding-bottom: 20px;
+	}
+
+aside {
+	width: 16.276041666667%; /* 150px / 921.6px */
+	}
+	
+aside img {
+	max-width: 100%;
 	}
 
 h1 {
 	float: left;
 	margin: 0;
-	margin-left: -70px;
-	margin-right: 80px;
-	padding-top: 15px;
-	padding-left: 160px;
+	margin-left: -7.595486111111%; /* 70px / 921.6px */
+	margin-right: 8.680555555556%; /* 80px / 921.6px */
+	padding-top: 3.797743055556%; /* 35px / 921.6px */
+	padding-left: 17.361111111111%; /* 160px / 921.6px */
+	font-size: 2em; /* 32px / 16px */
 	font-family: 'Yellowtail', cursive, sans-serif;
 	}
-
+	
+header ul {
+	clear: both;
+	list-style-type: none;
+	font-family: 'Yellowtail', cursive, sans-serif;
+	font-size: 1.25em; /* 20px / 16px */
+	color: pink;
+	}
+	
+#slogan {
+	font-size: 1.5624em; /* 25px / 16px */
+	color: pink;
+	font-weight: bolder;
+	padding-bottom: 2.170138888889%; /* 20px / 921.6px */
+	margin-bottom: -1.627604166667%; /* 15px / 921.6px */
+	}
+	
+header li {
+	margin-left: 22.243923611111%; /* 205px / 921.6px */
+	}
+		
 h1 a {
 	color: pink;
 	text-decoration: none;
@@ -49,16 +78,22 @@ article {
 /*-------------------Image Gallery--------------------------------------------------*/
 figure {
 	float: left;
-	margin-top: -25px;
-	margin-left: 70px;
+	margin-top: 0;
+	margin-left: 7.595486111111%; /* 70px / 921.6px */
+	width: 97.65625%; /* 900px / 921.6 */
+	}
+
+figure img {
+	width: 14.6484375%; /* 150px / 1024px */
 	}
 
 /*--------------------Navigation Elements-------------------------------------------*/
 nav {
-	padding-top: 35px;
+	padding-top: 3.797743055556%; /* 35px / 921.6px */
+	float: left;
 	}
 nav ul {
-	width: 425px;
+	width: 110%; /* changed just because it's spaced better */
 	background-color: rgb(94, 14, 25);
 	margin: 0 auto;
 	list-style-type: none;
@@ -68,9 +103,10 @@ nav ul {
 	
 nav li{
 	font-family: 'Yellowtail', cursive, sans-serif;
-	font-size: 25px;
+	font-size: 1.5624em; /* 25px / 16px */
 	font-weight: bolder;
-	width: 100px;
+	margin-left: -.542534722222%; /* 5px / 921.6px */
+	width: 23.529411764706%; /* 10.850694444444%;  100px / 425px */
 	float: left;
 	}
 	
@@ -116,33 +152,32 @@ h4 a {
 	}	
 	
 dl {
-	color: rgba(19, 19, 219, 0.5);
 	text-decoration: none;
 	font-family: 'Yellowtail', cursive, sans-serif;
-	padding-top: 30px;
+	padding-top: 2.170138888889%; /* 20px / 921.6px */
 	}
 
 dl a {
 	color: pink;
-	font-size: 20px;
+	font-size: 1.25em; /* 20px / 16px */
 	font-weight: bolder;
 	}
 	
 article p {
 	font-family: 'Rye', cursive, sans-serif;
 	text-align: center;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 2.84802916319%; /* 10px / 351.12px */
+	padding-right: 2.84802916319%; /* 10px / 351.12px */
 	}
 	
 article h2 {
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 2.84802916319%; /* 10px / 351.12px */
+	padding-right: 2.84802916319%; /* 10px / 351.12px */
 	text-align: center;
 	}
 	
 article {
-	width: 351.12px;
+	width: 32.971643518519%; /* 303.866666666667px / 921.6px */
 	height: 430px;
 	border: solid;
 	border-radius: 15px;
@@ -152,11 +187,11 @@ article {
 	
 
 div {
-	margin-left: 10px;
+	margin-left: 1.085069444444%; /* 10px / 921.6px */
 	}
 
 div {
-	width: 690.88px;
+	width: 64.858217592593%; /* 597.733333333333px / 921.6 */
 	height: 430px;
 	border: solid;
 	border-radius: 15px;
@@ -165,16 +200,17 @@ div {
 	}
 	
 div h2 {
-	padding-right: 5px;
-	padding-left: 5px;
+	padding-right: .723714682723%; /* 5px / 690.88 */
+	padding-left: .723714682723%; /* 5px / 690.88 */
 	text-align: center;
 	}
 	
 div ul {
-	width: 690.88px;
+	width: 64.858217592593%; /* 597.733333333333px / 921.6 */
 	list-style-type: none;
+	margin-left: 10.850694444444% /* 100px / 921.6px */
 	}
-	
+		
 .cupcakes {
 	padding-bottom: 0;
 	}
@@ -190,16 +226,15 @@ div a:hover {
 
 .order {
 	clear: both;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 5.208333333333%; /* 40px / 768px */
 	}
 	
-div li {
+div li img {
 	float: left;
-	padding-top: 20px;
-	padding-left: 40px;
-	}
-	
+	padding-top: 4.651162790698%; /* 20px / 430px */
+	padding-left: 10%; /* 40px / 597.733333333333px */
+	width: 21.701388888889%; /* 200px / 921.6px */
+	}	
 
 dl, h6 {
 	clear: both;
@@ -210,6 +245,7 @@ dl, h6 {
 dl a:hover {
 	color: black;
 	}
+	
 
 
 	

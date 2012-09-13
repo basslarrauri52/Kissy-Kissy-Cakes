@@ -1,6 +1,7 @@
 /*-----------------------------------Colors--------------------------------------------
 Deep Maroon:  94, 14, 25
 Blue:  19, 19, 219
+width: 921.6
 
 -------------------------------------------------------------------------------------*/
 
@@ -9,27 +10,28 @@ body {
 	background-repeat: repeat;
 	background-attachment: scroll;
 	overflow: auto;
-	max-width: 1064px;
+	max-width: 90%;
 	margin: 0 auto;
 	}
 
 /*-------------------Header Elements------------------------------------------------*/
 header {
-	padding-top: 10px;
+	padding-top: 0.9765625%; /* 10 px / 1024 px */
 	}
 
 header, aside {
-	float: left;
-	padding-bottom: 20px;
+	float: left; 
+	padding-bottom: 1.953125%; /* 20 px / 1024 px */
 	}
 
 h1 {
 	float: left;
 	margin: 0;
-	margin-left: -70px;
-	margin-right: 80px;
-	padding-top: 15px;
-	padding-left: 160px;
+	margin-left: -6.8359375%; /* 70 px / 1024 px */
+	margin-right: 7.8125%; /* 80 px / 1024 px */
+	padding-top: 1.4648375%; /* 15 px / 1024 px */
+	padding-left: 15.625%; /* 160 px / 1024 px*/
+	font-size: 1.5em; /* 24px / 16px */
 	font-family: 'Yellowtail', cursive, sans-serif;
 	}
 
@@ -46,19 +48,28 @@ h1 a:hover {
 	clear: both;
 	}
 
+#head-images {
+	clear: both;
+	}
 /*-------------------Image Gallery--------------------------------------------------*/
 figure {
-	float: left;
-	margin-top: -25px;
-	margin-left: 70px;
+	width: 87.890625%; /* 900px / 1024px */
+	height: 19.53125%; /* 200px / 1024px */
+	margin-top: -3.255208333333%; /* 25px / 768 */
+	margin-left: 6.8359375%; /* 70px / 1024px */
 	}
-
+	
+figure img {
+	width: 14.6484375%; /* 150px / 1024px */
+	height: 100%;
+	}
 /*--------------------Navigation Elements-------------------------------------------*/
 nav {
-	padding-top: 35px;
+	padding-top: 3.41796875%; /* 35 px / 1024 px*/
 	}
+
 nav ul {
-	width: 425px;
+	width: 39.0625%; /* 400 px / 1024 px */
 	background-color: rgb(94, 14, 25);
 	margin: 0 auto;
 	list-style-type: none;
@@ -68,16 +79,16 @@ nav ul {
 	
 nav li{
 	font-family: 'Yellowtail', cursive, sans-serif;
-	font-size: 25px;
+	font-size: 1.5625em; /* 25 px / 16 px*/
 	font-weight: bolder;
-	width: 100px;
+	width: 25%; /* 75 px / 300 px*/
 	float: left;
 	}
 	
 nav a{
 	text-decoration: none;
 	display: block;
-	height: 30px;
+	height: 2.9296875%; /* 30 px / 1024 px */
 	line-height: 30px;
 	color: pink;
 	}
@@ -118,11 +129,11 @@ article a:hover {
 	}
 	
 article dl {
-	margin-top: 80px;
-	margin-left: -20px;
-	margin-bottom: 50px;
-	margin-right: 25px;
-	font-size: 20px;
+	margin-top: 22.093023255814%; /* 95 px / 430 px */
+	margin-left: -5.696058327637%;/* 20 px / 351.12 px */
+	margin-bottom: 11.627906976744%;/* 50 px / 430 px */
+	margin-right: 7.120072909547%; /* 25px / 351.12px */
+	font-size: 1.25em; /* 20 px / 16px */
 	font-weight: bolder;
 	}
 
@@ -139,16 +150,16 @@ h4 a {
 	font-weight: bolder;
 	}	
 	
-dl {
+article dl {
 	color: rgba(19, 19, 219, 0.5);
 	text-decoration: none;
 	font-family: 'Yellowtail', cursive, sans-serif;
-	padding-top: 30px;
+	padding-top: 8.544087491456%; /* 30 px / 351.12 px */
 	}
 	
 article {
-	width: 351.12px;
-	height: 430px;
+	width: 34.2890625%; /* 351.12 px / 1024 px */
+	height: 55.989583333333%; /* 430px / 768px */
 	border: solid;
 	border-radius: 15px;
 	float: left;
@@ -156,12 +167,12 @@ article {
 	}
 
 div {
-	margin-left: 10px;
+	margin-left: 0.93984962406%; /* 10 px / 1064 px */
 	}
 
 div {
-	width: 690.88px;
-	height: 430px;
+	width: 63.7578125%; /* 662.88px / 1024px*/
+	height: 55.989583333333%; /* 430px / 768px */
 	border: solid;
 	border-radius: 15px;
 	background-image: url(../images/box-background2.jpg);
@@ -169,13 +180,13 @@ div {
 	}
 	
 div h2 {
-	padding-right: 5px;
-	padding-left: 5px;
+	padding-right: .723714682723%; /* 5px / 690.88px */
+	padding-left: .723714682723%; /* 5px / 690.88px */
 	text-align: center;
 	}
 	
 div ul {
-	width: 690.88px;
+	width: 64.932330827068%; /* 690.88px / 1064px*/
 	list-style-type: none;
 	}
 	
@@ -194,14 +205,13 @@ div a:hover {
 
 .order {
 	clear: both;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 9.302325581395%; /* 40px / 430px */
+	padding-bottom: 9.302325581395%; /* 40px / 430px */
 	}
 	
 div li {
-	float: left;
-	padding-top: 20px;
-	padding-left: 40px;
+	padding-top: 4.651162790698%; /* 20px / 430px */
+	padding-left: 5.789717461788%; /* 40px / 690.88px */
 	}
 
 dl, h6 {
@@ -216,5 +226,20 @@ dl a:hover {
 	
 .like a{
 	color: pink;
+	font-family: 'Yellowtail', cursive, sans-serif;
 	font-weight: bolder;
+	}
+
+#logo {
+	width: 16.037790867207%;  /*110px / 685.88px */
+	float: left;
+	}
+	
+#logo img {
+	width: 100%;
+	}
+
+#cupcakes img {
+	width: 14.097744360902%; /* 150px / 1064px */
+	float: left;
 	}
