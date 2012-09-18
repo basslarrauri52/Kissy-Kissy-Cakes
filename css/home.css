@@ -42,6 +42,11 @@ h1 {
 	font-family: 'Yellowtail', cursive, sans-serif;
 	}
 	
+#phone {
+	float: right;
+	margin-top: -13.020833333333%; /* 90px / 921.6px; */
+	}
+	
 header ul {
 	clear: both;
 	list-style-type: none;
@@ -89,11 +94,13 @@ figure img {
 
 /*--------------------Navigation Elements-------------------------------------------*/
 nav {
-	padding-top: 3.797743055556%; /* 35px / 921.6px */
-	float: left;
+	margin-top: -1.085069444444%; /* 10px / 921.6px */
+	padding-bottom: 2.170138888889%; /* 20px / 921.6px */
+	clear: both;
 	}
+
 nav ul {
-	width: 110%; /* changed just because it's spaced better */
+	width: 95%; /* changed just because it's spaced better */
 	background-color: rgb(94, 14, 25);
 	margin: 0 auto;
 	list-style-type: none;
@@ -105,8 +112,8 @@ nav li{
 	font-family: 'Yellowtail', cursive, sans-serif;
 	font-size: 1.5624em; /* 25px / 16px */
 	font-weight: bolder;
-	margin-left: -.542534722222%; /* 5px / 921.6px */
-	width: 23.529411764706%; /* 10.850694444444%;  100px / 425px */
+	margin-left: 5.425347222222%; /* 50px / 921.6px */
+	width: 13.563368055556%; /* 100px / 425px */
 	float: left;
 	}
 	
@@ -284,6 +291,15 @@ section h4 {
 	
 section h2 {
 	text-align: center;
+	}
+	
+section a {
+	color: rgb(94, 14, 25);
+	font-weight: bolder;
+	}
+	
+section a:hover {
+	color: black;
 	}
 	
 section ul {
