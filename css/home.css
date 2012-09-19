@@ -109,8 +109,6 @@ nav ul {
 	list-style-type: none;
 	border-radius: 15px;
 	overflow: hidden;
-	-moz-box-shadow: -3px 3px pink;
-	-webkit-box-shadow: -3px 3px pink;
 	box-shadow: -3px 3px pink;
 	}
 	
@@ -354,15 +352,15 @@ section p {
 	}
 	
 #salted {
-	margin-top: 25%;
+	margin-top: 30%;
 	}	
 	
 #qce {
-	margin-top: -20%;
+	margin-top: -15%;
 	}
 
 #wcc {
-	margin-top: 10%;
+	margin-top: 0%;
 	padding-right: 3%;
 	}
 
